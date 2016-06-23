@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C90A621D1C6F7A00DD8ABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C90A611D1C6F7A00DD8ABF /* AppDelegate.swift */; };
+		03C90A641D1C6F7A00DD8ABF /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C90A631D1C6F7A00DD8ABF /* SimpleTableViewController.swift */; };
+		03C90A691D1C6F7A00DD8ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C90A681D1C6F7A00DD8ABF /* Assets.xcassets */; };
+		03C90A6C1D1C6F7A00DD8ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C90A6A1D1C6F7A00DD8ABF /* LaunchScreen.storyboard */; };
+		03EF2FA31D1C7021002EE182 /* SimpleTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF2FA21D1C7021002EE182 /* SimpleTableViewModel.swift */; };
+		03EF2FA51D1C7028002EE182 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF2FA41D1C7028002EE182 /* MyCell.swift */; };
+		03EF2FA71D1C7036002EE182 /* MyCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF2FA61D1C7036002EE182 /* MyCellViewModel.swift */; };
+		03EF2FAC1D1C72EA002EE182 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF2FAB1D1C72EA002EE182 /* MyModel.swift */; };
+		1E46FD3AE74A07F350B597C7 /* Pods_SimpleTableViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41D8593EE295A3F6DCED312 /* Pods_SimpleTableViewController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C90A5E1D1C6F7A00DD8ABF /* SimpleTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C90A611D1C6F7A00DD8ABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03C90A631D1C6F7A00DD8ABF /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		03C90A681D1C6F7A00DD8ABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03C90A6B1D1C6F7A00DD8ABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03C90A6D1D1C6F7A00DD8ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EF2FA21D1C7021002EE182 /* SimpleTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewModel.swift; sourceTree = "<group>"; };
+		03EF2FA41D1C7028002EE182 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		03EF2FA61D1C7036002EE182 /* MyCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCellViewModel.swift; sourceTree = "<group>"; };
+		03EF2FAB1D1C72EA002EE182 /* MyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		0D9AACC582AC7FDCC38838F0 /* Pods-SimpleTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableViewController/Pods-SimpleTableViewController.release.xcconfig"; sourceTree = "<group>"; };
+		B41D8593EE295A3F6DCED312 /* Pods_SimpleTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD20CAAF1B354F0B32D9F38 /* Pods-SimpleTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableViewController/Pods-SimpleTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03C90A5B1D1C6F7A00DD8ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E46FD3AE74A07F350B597C7 /* Pods_SimpleTableViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C90A551D1C6F7A00DD8ABF = {
+			isa = PBXGroup;
+			children = (
+				03C90A601D1C6F7A00DD8ABF /* SimpleTableViewController */,
+				03C90A5F1D1C6F7A00DD8ABF /* Products */,
+				3596BB5A7FD7C9230C3EFA69 /* Pods */,
+				AEFCF4EE3432811BB4FEBE3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03C90A5F1D1C6F7A00DD8ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03C90A5E1D1C6F7A00DD8ABF /* SimpleTableViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03C90A601D1C6F7A00DD8ABF /* SimpleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03C90A611D1C6F7A00DD8ABF /* AppDelegate.swift */,
+				03EF2FAD1D1C7303002EE182 /* Model */,
+				03EF2FA91D1C72D6002EE182 /* ViewController */,
+				03EF2FAA1D1C72DC002EE182 /* Cell */,
+				03C90A681D1C6F7A00DD8ABF /* Assets.xcassets */,
+				03C90A6A1D1C6F7A00DD8ABF /* LaunchScreen.storyboard */,
+				03C90A6D1D1C6F7A00DD8ABF /* Info.plist */,
+			);
+			path = SimpleTableViewController;
+			sourceTree = "<group>";
+		};
+		03EF2FA91D1C72D6002EE182 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03C90A631D1C6F7A00DD8ABF /* SimpleTableViewController.swift */,
+				03EF2FA21D1C7021002EE182 /* SimpleTableViewModel.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		03EF2FAA1D1C72DC002EE182 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				03EF2FA41D1C7028002EE182 /* MyCell.swift */,
+				03EF2FA61D1C7036002EE182 /* MyCellViewModel.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		03EF2FAD1D1C7303002EE182 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03EF2FAB1D1C72EA002EE182 /* MyModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3596BB5A7FD7C9230C3EFA69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD20CAAF1B354F0B32D9F38 /* Pods-SimpleTableViewController.debug.xcconfig */,
+				0D9AACC582AC7FDCC38838F0 /* Pods-SimpleTableViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEFCF4EE3432811BB4FEBE3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B41D8593EE295A3F6DCED312 /* Pods_SimpleTableViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03C90A5D1D1C6F7A00DD8ABF /* SimpleTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C90A701D1C6F7A00DD8ABF /* Build configuration list for PBXNativeTarget "SimpleTableViewController" */;
+			buildPhases = (
+				FC80A6BB31C63CDEAEA64EBE /* 📦 Check Pods Manifest.lock */,
+				03C90A5A1D1C6F7A00DD8ABF /* Sources */,
+				03C90A5B1D1C6F7A00DD8ABF /* Frameworks */,
+				03C90A5C1D1C6F7A00DD8ABF /* Resources */,
+				4CB485941CC25C3C2C5C5131 /* 📦 Embed Pods Frameworks */,
+				282F8AE1DD5A85A230ED88EE /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTableViewController;
+			productName = SimpleTableViewController;
+			productReference = 03C90A5E1D1C6F7A00DD8ABF /* SimpleTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03C90A561D1C6F7A00DD8ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Suyeol Jeon";
+				TargetAttributes = {
+					03C90A5D1D1C6F7A00DD8ABF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 03C90A591D1C6F7A00DD8ABF /* Build configuration list for PBXProject "SimpleTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03C90A551D1C6F7A00DD8ABF;
+			productRefGroup = 03C90A5F1D1C6F7A00DD8ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03C90A5D1D1C6F7A00DD8ABF /* SimpleTableViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03C90A5C1D1C6F7A00DD8ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C90A6C1D1C6F7A00DD8ABF /* LaunchScreen.storyboard in Resources */,
+				03C90A691D1C6F7A00DD8ABF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		282F8AE1DD5A85A230ED88EE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableViewController/Pods-SimpleTableViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB485941CC25C3C2C5C5131 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableViewController/Pods-SimpleTableViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC80A6BB31C63CDEAEA64EBE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C90A5A1D1C6F7A00DD8ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EF2FA71D1C7036002EE182 /* MyCellViewModel.swift in Sources */,
+				03EF2FAC1D1C72EA002EE182 /* MyModel.swift in Sources */,
+				03C90A641D1C6F7A00DD8ABF /* SimpleTableViewController.swift in Sources */,
+				03EF2FA51D1C7028002EE182 /* MyCell.swift in Sources */,
+				03C90A621D1C6F7A00DD8ABF /* AppDelegate.swift in Sources */,
+				03EF2FA31D1C7021002EE182 /* SimpleTableViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03C90A6A1D1C6F7A00DD8ABF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03C90A6B1D1C6F7A00DD8ABF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03C90A6E1D1C6F7A00DD8ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03C90A6F1D1C6F7A00DD8ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03C90A711D1C6F7A00DD8ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD20CAAF1B354F0B32D9F38 /* Pods-SimpleTableViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.SimpleTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03C90A721D1C6F7A00DD8ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9AACC582AC7FDCC38838F0 /* Pods-SimpleTableViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.SimpleTableViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C90A591D1C6F7A00DD8ABF /* Build configuration list for PBXProject "SimpleTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C90A6E1D1C6F7A00DD8ABF /* Debug */,
+				03C90A6F1D1C6F7A00DD8ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03C90A701D1C6F7A00DD8ABF /* Build configuration list for PBXNativeTarget "SimpleTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03C90A711D1C6F7A00DD8ABF /* Debug */,
+				03C90A721D1C6F7A00DD8ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03C90A561D1C6F7A00DD8ABF /* Project object */;
+}
