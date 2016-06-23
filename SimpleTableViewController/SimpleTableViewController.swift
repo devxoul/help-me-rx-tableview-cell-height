@@ -69,7 +69,7 @@ extension SimpleTableViewController: UITableViewDelegate {
         // Help me!
         // 1) We have to return the actual `CGFloat` value here.
         // 2) We can only access `MyCellViewModel.message`, which is `Driver<String>`.
-        // 3) How can I do?
+        // 3) How can I do? There could be many possible workarounds, but I want to use the solution which is most fit to Rx philisophy.
 
         // Possible workarounds (maybe code smell) and my opinions:
         //
