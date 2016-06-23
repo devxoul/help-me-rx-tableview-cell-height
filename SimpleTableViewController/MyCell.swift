@@ -43,6 +43,11 @@ class MyCell: UITableViewCell {
 
     // MARK: Configuring
 
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.disposeBag = nil
+    }
+
     func configure(viewModel: MyCellViewModel) {
         self.disposeBag = DisposeBag()
         guard let disposeBag = self.disposeBag else { return }
