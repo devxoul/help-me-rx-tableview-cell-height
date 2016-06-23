@@ -69,7 +69,7 @@ extension SimpleTableViewController: UITableViewDelegate {
         // Help me!
         // 1) We have to return the actual `CGFloat` value here.
         // 2) We can only access `MyCellViewModel.message`, which is `Driver<String>`.
-        // 3) What should I do?
+        // 3) How can I do?
 
         // Possible workarounds (maybe code smell) and my opinions:
         //
@@ -79,7 +79,10 @@ extension SimpleTableViewController: UITableViewDelegate {
         // 2) Provide a calculating method such as `MyCellViewModel.messageHeightThatFitsWidth(_:, font:) -> CGFloat`
         //      => This makes `ViewModel` have UI responsibility.
         //
-        // 3) Please give me an advice!
+        // 3) Use Self-Sizing cells
+        //      => This is simplified project. I don't use auto layout in table/collection view cells because of performance issue.
+        //
+        // 4) Please give me an advice!
 
         /*return*/ cellViewModel.message // This is `Driver<String>`
             .map { message -> CGFloat in
