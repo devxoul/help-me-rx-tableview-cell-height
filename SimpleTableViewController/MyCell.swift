@@ -46,7 +46,7 @@ class MyCell: UITableViewCell {
     func configure(viewModel: MyCellViewModel) {
         self.disposeBag = DisposeBag()
         guard let disposeBag = self.disposeBag else { return }
-        viewModel.message
+        viewModel.message.asDriver()
             .drive(self.messageLabel.rx_text)
             .addDisposableTo(disposeBag)
     }
